@@ -1,0 +1,1 @@
+print("Run check: OK")

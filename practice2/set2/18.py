@@ -1,7 +1,7 @@
 n = int(input())
 arr = []
 
-for _ in range(n):
+for x in range(n):
     arr.append(input().strip())
 
 first_pos = {}

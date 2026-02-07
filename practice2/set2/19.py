@@ -1,7 +1,7 @@
 n = int(input())
 
 total = {}
-for _ in range(n):
+for i in range(n):
     name, k = input().split()
     k = int(k)
     if name in total:

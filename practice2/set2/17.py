@@ -1,7 +1,7 @@
 n = int(input())
 
 freq = {}
-for _ in range(n):
+for i in range(n):
     phone = input().strip()
     if phone in freq:
         freq[phone] += 1

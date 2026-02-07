@@ -1,7 +1,7 @@
 n = int(input())
 
 seen = set()
-for _ in range(n):
+for i in range(n):
     name = input().strip()
     seen.add(name)
 

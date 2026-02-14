@@ -1,13 +1,8 @@
-def isUsual(num):
+def isUsual(n):
     for d in [2, 3, 5]:
-        while num % d == 0:
-            num //= d
-    return num == 1
-
+        while n % d == 0:
+            n //= d
+    return n == 1
 
 n = int(input())
-
-if isUsual(n):
-    print("Yes")
-else:
-    print("No")
+print("Yes" if isUsual(n) else "No")

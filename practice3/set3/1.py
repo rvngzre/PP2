@@ -1,12 +1,11 @@
-n = input()
+n = int(input())
 
-valid = True
-for d in n:
-    if int(d) % 2 != 0:
-        valid = False
-        break
-
-if valid:
+def is_valid_number(n):
+    n = abs(n)
+    for digit in str(n):
+        if int(digit) % 2 != 0:
+            print("Not Valid")
+            return
     print("Valid")
-else:
-    print("Not valid")
+
+is_valid_number(n)

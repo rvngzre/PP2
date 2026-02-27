@@ -1,12 +1,12 @@
 import json
 
-# Шаг 3: Печатаем заголовок и линии ПЕРЕД циклом
+
 print("Interface Status")
 print("=" * 80)
 print(f"{'DN':50} {'Description':20} {'Speed':7} {'MTU':5}")
 print("-" * 50 + " " + "-" * 20 + " " + "-" * 7 + " " + "-" * 5)
 
-# Открываем файл. Убедитесь, что имя файла в кавычках совпадает с вашим!
+
 with open("sample-data.json", "r") as json_file:
     parsed_data = json.load(json_file)
 

@@ -1,5 +1,9 @@
-n = int(input())
+N = int(input())
+
 p = 1
-while p <= n:
-    print(p, end=" ")
+ans = []
+while p <= N:
+    ans.append(p)
     p *= 2
+
+print(*ans)

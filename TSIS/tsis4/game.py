@@ -9,7 +9,7 @@ class SnakeGame:
     def __init__(self):
         pygame.init()
         self.screen = pygame.display.set_mode((WIDTH, HEIGHT))
-        pygame.display.set_caption("Snake TSIS4")
+        pygame.display.set_caption("Snake")
         self.clock = pygame.time.Clock()
         self.font = pygame.font.SysFont("Arial", 26)
         self.small_font = pygame.font.SysFont("Arial", 19)
